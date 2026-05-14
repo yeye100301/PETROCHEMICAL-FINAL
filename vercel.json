@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/",              "destination": "/dashboard.html" },
+    { "source": "/_proxy",        "destination": "/api/proxy" },
+    { "source": "/_save-matdata", "destination": "/api/save-matdata" }
+  ]
+}

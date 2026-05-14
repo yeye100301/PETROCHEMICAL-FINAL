@@ -1,0 +1,12 @@
+{
+  "name": "hansol-dashboard",
+  "version": "1.0.0",
+  "description": "한솔제지 부재료 대시보드",
+  "scripts": {
+    "start": "node server.js",
+    "build-exe": "pkg server.js --targets node24-win-x64 --output 한솔대시보드.exe"
+  },
+  "devDependencies": {
+    "@yao-pkg/pkg": "^6.19.0"
+  }
+}
